@@ -1,0 +1,20 @@
+project:
+  name: "meme-mining"
+  version: "0.0.1"
+  seed: 161801525115
+
+data:
+  subreddits:
+    - "memes"
+    - "dankmemes"
+    - "me_irl"
+    - "MemeEconomy"
+  reddit_limit: 1000
+  time_sort: "top"
+  time_filter: "year"
+  min_score: 50
+  image_extensions:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".webp"
